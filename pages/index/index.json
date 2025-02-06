@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "poster-creator-mp":"../../components/poster-creator-mp/index"
+  }
+}

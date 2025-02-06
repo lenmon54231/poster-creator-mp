@@ -1,0 +1,7 @@
+<view class="save-dom-canvas-container" wx:hidden="{{!show}}">
+  <canvas
+    type="2d"
+    id="saveDomOffsetCanvas"
+    style="width:{{canvasPixelWidth}}px;height:{{canvasPixelHeight}}px"
+  />
+</view>

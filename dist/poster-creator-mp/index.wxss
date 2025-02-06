@@ -1,0 +1,7 @@
+.save-dom-canvas-container {
+  position: fixed;
+  top: -9999px;
+  left: -9999px;
+  width: 100vw;
+  height: 100vh;
+}

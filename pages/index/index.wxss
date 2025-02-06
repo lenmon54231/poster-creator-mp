@@ -1,0 +1,17 @@
+.main-container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.poster{
+  height: 150vw;
+  margin-top: 22rpx;
+}
+
+button{
+  margin: 12rpx 0;
+}

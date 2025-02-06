@@ -1,0 +1,13 @@
+{
+  "name": "poster-creator-mp",
+  "version": "1.0.4",
+  "description": "Generate poster using canvas through the configuration in miniprogram",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "limeng",
+  "license": "MIT",
+  "miniprogram": "dist/poster-creator-mp",
+  "files": ["dist"]
+}

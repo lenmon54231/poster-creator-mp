@@ -1,0 +1,13 @@
+<view class="main-container">
+  <button bind:tap="generate">生成海报</button>
+  <button bind:tap="save">保存海报</button>
+  <image class="poster" src="{{path}}" mode="aspectFit"/>
+  <poster-creator
+  width="{{canvasWidth}}"
+  height="{{canvasHeight}}"
+  options="{{saveDomOptions}}"
+  action="{{action}}"
+  bind:finish="finish"
+  bind:filepath="generateImagePath"
+  />
+</view>
