@@ -118,6 +118,7 @@ this.setData({
  *   dWidth: 200, // 绘制的图片宽度
  *   dHeight: 200, // 绘制的图片高度
  *   font: "12px", // 字体大小
+ *   fontFamily:'Arial', // 字体家族
  *   fillStyle: "#C2A272", //字体颜色
  *   textAlign:'', // 字体位置
  *   textBaseline:"", // 字体基线
