@@ -47,6 +47,10 @@ Component({
       type: String,
       value: "save",
     },
+    defaultFontFamily:{
+      type:String,
+      value:'Arial'
+    }
   },
 
   data: {
@@ -137,7 +141,7 @@ Component({
     fillMultilineTextByCanvas(item) {
       // eslint-disable-next-line no-unused-vars
       return new Promise((res, rej) => {
-        this.data.ctx.font = item.font ? item.font + " Arial" : "22px Arial";
+        this.data.ctx.font = item.font ? item.font : `22px ${this.properties.defaultFontFamily}`;
         this.data.ctx.fillStyle = item.fillStyle || "#C2A272";
         if (item.line) {
           this.drawMultilineText(item);
@@ -197,7 +201,7 @@ Component({
 
     // ------------------工具函数-----------------
     setFontStyle(item) {
-      this.data.ctx.font = item.font ? item.font + " Arial" : "22px Arial";
+      this.data.ctx.font = item.font ? item.font : `22px ${this.properties.defaultFontFamily}`;
       this.data.ctx.fillStyle = item.fillStyle || "#C2A272";
       this.data.ctx.textAlign = item.textAlign || "start";
       this.data.ctx.textBaseline = item.textBaseline || "middle";
