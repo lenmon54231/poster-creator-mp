@@ -105,6 +105,7 @@ this.setData({
 | height | Number | wx.getSystemInfoSync().windowHeight | canvas的高度 | - |
 | action | String | 'save' | 绘制行为 | save：绘制并保存到相册；generate：绘制海报并返回海报临时路径
 | options | Array | [] | 绘制海报的内容 | - |
+| defaultFontFamily | String | 'Arial' | 文字字体 | - |
 
 > options数组配置有如下属性可选
 
