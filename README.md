@@ -160,6 +160,14 @@ this.setData({
 
 ### 更新发包
 
+1. 打包
+```bash
+npm run build
+```
+
+2.修改package.json中的version版本号
+
+3.发布到npm
 ```bash
 npm publish
 ```
